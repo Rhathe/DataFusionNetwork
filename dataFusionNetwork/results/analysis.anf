@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/myWSN/results/Alt-0.sca"/>
+    <inputs name="/myWSN/results/Alt-0.vec"/>
+    <inputs name="/myWSN/results/Negative-0.sca"/>
+    <inputs name="/myWSN/results/Negative-0.vec"/>
+    <inputs name="/myWSN/results/Time-0.sca"/>
+    <inputs name="/myWSN/results/Time-0.vec"/>
+  </inputs>
+  <datasets>
+    <datasets name="Power Per Round">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.node[0].appl) AND name(&quot;Power Per Round&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.node[0].appl) AND name(&quot;Power Per Round&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="Power Per Round" lineNameFormat="">
+        <properties name="Graph.Title" value="Power Per Round"/>
+        <properties name="X.Axis.Title" value="Time (sec)"/>
+        <properties name="Y.Axis.Title" value="Power (mW)"/>
+        <properties name="Legend.Display" value="true"/>
+      </items>
+    </datasets>
+    <datasets name="Total Power">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.node[0].appl) AND name(&quot;Total Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.node[0].appl) AND name(&quot;Total Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="Total Power"/>
+    </datasets>
+    <datasets name="RxTxPower">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.node[0].appl) AND name(#AvgRXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.node[0].appl) AND name(#AvgTXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.baseStation.appl) AND name(#AvgRXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.baseStation.appl) AND name(#AvgTXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.node[0].appl) AND name(#AvgRXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.node[0].appl) AND name(#AvgTXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.baseStation.appl) AND name(#AvgRXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.baseStation.appl) AND name(#AvgTXPower)"/>
+      <items xsi:type="scave:BarChart" name="RxTxPower">
+        <properties name="Graph.Title" value="Rx/Tx Power"/>
+        <properties name="X.Axis.Title" value="Nodes"/>
+        <properties name="Y.Axis.Title" value="Power (mW)"/>
+        <properties name="Legend.Display" value="true"/>
+      </items>
+    </datasets>
+    <datasets name="#AvgTime">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN2.baseStation.appl) AND name(#AvgTime)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN.baseStation.appl) AND name(#AvgTime)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.baseStation.appl) AND name(#AvgTime)"/>
+      <items xsi:type="scave:BarChart" name="#AvgTime"/>
+    </datasets>
+    <datasets name="#AvgPower">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.node[0].appl) AND name(#AvgPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.baseStation.appl) AND name(#AvgPower)"/>
+      <items xsi:type="scave:BarChart" name="#AvgPower"/>
+    </datasets>
+    <datasets name="Time  #0">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.node[0].appl) AND name(#AvgRXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.node[0].appl) AND name(#AvgTXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.baseStation.appl) AND name(#AvgRXPower)"/>
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.baseStation.appl) AND name(#AvgTXPower)"/>
+      <items xsi:type="scave:BarChart" name="Time  #0"/>
+    </datasets>
+    <datasets name="Total Power MyWSN3.node[0].appl">
+      <items xsi:type="scave:Add" filterPattern="module(MyWSN3.node[0].appl) AND name(&quot;Total Power&quot;)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="Total Power MyWSN3.node[0].appl"/>
+    </datasets>
+  </datasets>
+  <chartSheets/>
+</scave:Analysis>

@@ -1,0 +1,186 @@
+version 2
+run Alt-0-20110726-13:45:49-5133
+attr configname Alt
+attr datetime 20110726-13:45:49
+attr experiment Alt
+attr inifile /home/reu/Desktop/omnetpp-4.1/samples/myWSN/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network MyWSN2
+attr processid 5133
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar MyWSN2.node[0].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar MyWSN2.node[0].batteryStats 	total 	370270.18576169
+attr unit  mW-s
+scalar MyWSN2.node[0].batteryStats 	lifetime 	-1
+attr unit  s
+scalar MyWSN2.node[0].batteryStats 	"Mean power consumption" 	37.027018576169
+attr unit  mW
+scalar MyWSN2.node[0].appl 	#AvgPower 	136.6310649263
+scalar MyWSN2.node[0].appl 	#AvgRXPower 	136.37451393715
+scalar MyWSN2.node[0].appl 	#AvgTXPower 	0.15736733136532
+scalar MyWSN2.node[0].appl 	#rightMACSsent 	0
+scalar MyWSN2.node[0].appl 	#wrongMACSsent 	0
+scalar MyWSN2.node[0].appl 	#rightVOTEsent 	355
+scalar MyWSN2.node[0].appl 	#wrongVOTEsent 	360
+scalar MyWSN2.node[0].appl 	#rightDATAsent 	530
+scalar MyWSN2.node[0].appl 	#wrongDATAsent 	134
+scalar MyWSN2.node[0].appl 	#received 	8961
+scalar MyWSN2.node[0].nic.mac 	nbTxFrames 	1380
+scalar MyWSN2.node[0].nic.mac 	nbRxFrames 	8462
+scalar MyWSN2.node[0].nic.mac 	nbDroppedFrames 	0
+scalar MyWSN2.node[0].nic.mac 	nbMissedAcks 	0
+scalar MyWSN2.node[0].nic.mac 	nbRecvdAcks 	0
+scalar MyWSN2.node[0].nic.mac 	nbTxAcks 	0
+scalar MyWSN2.node[0].nic.mac 	nbDuplicates 	0
+scalar MyWSN2.node[0].nic.mac 	meanBackoff 	0.41466666666667
+scalar MyWSN2.node[0].nic.mac 	nbBackoffs 	1380
+scalar MyWSN2.node[0].nic.mac 	backoffDurations 	572.24
+scalar MyWSN2.node[1].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar MyWSN2.node[1].batteryStats 	total 	371500.1656909
+attr unit  mW-s
+scalar MyWSN2.node[1].batteryStats 	lifetime 	-1
+attr unit  s
+scalar MyWSN2.node[1].batteryStats 	"Mean power consumption" 	37.15001656909
+attr unit  mW
+scalar MyWSN2.node[1].appl 	#AvgPower 	137.08490770451
+scalar MyWSN2.node[1].appl 	#AvgRXPower 	136.84152588367
+scalar MyWSN2.node[1].appl 	#AvgTXPower 	0.14489897180812
+scalar MyWSN2.node[1].appl 	#rightMACSsent 	0
+scalar MyWSN2.node[1].appl 	#wrongMACSsent 	0
+scalar MyWSN2.node[1].appl 	#rightVOTEsent 	358
+scalar MyWSN2.node[1].appl 	#wrongVOTEsent 	366
+scalar MyWSN2.node[1].appl 	#rightDATAsent 	488
+scalar MyWSN2.node[1].appl 	#wrongDATAsent 	119
+scalar MyWSN2.node[1].appl 	#received 	9075
+scalar MyWSN2.node[1].nic.mac 	nbTxFrames 	1332
+scalar MyWSN2.node[1].nic.mac 	nbRxFrames 	8561
+scalar MyWSN2.node[1].nic.mac 	nbDroppedFrames 	0
+scalar MyWSN2.node[1].nic.mac 	nbMissedAcks 	0
+scalar MyWSN2.node[1].nic.mac 	nbRecvdAcks 	0
+scalar MyWSN2.node[1].nic.mac 	nbTxAcks 	0
+scalar MyWSN2.node[1].nic.mac 	nbDuplicates 	0
+scalar MyWSN2.node[1].nic.mac 	meanBackoff 	0.41711711711712
+scalar MyWSN2.node[1].nic.mac 	nbBackoffs 	1332
+scalar MyWSN2.node[1].nic.mac 	backoffDurations 	555.6
+scalar MyWSN2.node[2].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar MyWSN2.node[2].batteryStats 	total 	374592.59559703
+attr unit  mW-s
+scalar MyWSN2.node[2].batteryStats 	lifetime 	-1
+attr unit  s
+scalar MyWSN2.node[2].batteryStats 	"Mean power consumption" 	37.459259559703
+attr unit  mW
+scalar MyWSN2.node[2].appl 	#AvgPower 	138.2260257555
+scalar MyWSN2.node[2].appl 	#AvgRXPower 	137.98640137262
+scalar MyWSN2.node[2].appl 	#AvgTXPower 	0.14275487535056
+scalar MyWSN2.node[2].appl 	#rightMACSsent 	0
+scalar MyWSN2.node[2].appl 	#wrongMACSsent 	0
+scalar MyWSN2.node[2].appl 	#rightVOTEsent 	372
+scalar MyWSN2.node[2].appl 	#wrongVOTEsent 	374
+scalar MyWSN2.node[2].appl 	#rightDATAsent 	516
+scalar MyWSN2.node[2].appl 	#wrongDATAsent 	116
+scalar MyWSN2.node[2].appl 	#received 	9027
+scalar MyWSN2.node[2].nic.mac 	nbTxFrames 	1379
+scalar MyWSN2.node[2].nic.mac 	nbRxFrames 	8481
+scalar MyWSN2.node[2].nic.mac 	nbDroppedFrames 	0
+scalar MyWSN2.node[2].nic.mac 	nbMissedAcks 	0
+scalar MyWSN2.node[2].nic.mac 	nbRecvdAcks 	0
+scalar MyWSN2.node[2].nic.mac 	nbTxAcks 	0
+scalar MyWSN2.node[2].nic.mac 	nbDuplicates 	0
+scalar MyWSN2.node[2].nic.mac 	meanBackoff 	0.43039883973894
+scalar MyWSN2.node[2].nic.mac 	nbBackoffs 	1379
+scalar MyWSN2.node[2].nic.mac 	backoffDurations 	593.52
+scalar MyWSN2.node[3].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar MyWSN2.node[3].batteryStats 	total 	369806.48117661
+attr unit  mW-s
+scalar MyWSN2.node[3].batteryStats 	lifetime 	-1
+attr unit  s
+scalar MyWSN2.node[3].batteryStats 	"Mean power consumption" 	36.980648117661
+attr unit  mW
+scalar MyWSN2.node[3].appl 	#AvgPower 	136.45993186996
+scalar MyWSN2.node[3].appl 	#AvgRXPower 	136.22339608105
+scalar MyWSN2.node[3].appl 	#AvgTXPower 	0.13696966118081
+scalar MyWSN2.node[3].appl 	#rightMACSsent 	0
+scalar MyWSN2.node[3].appl 	#wrongMACSsent 	0
+scalar MyWSN2.node[3].appl 	#rightVOTEsent 	339
+scalar MyWSN2.node[3].appl 	#wrongVOTEsent 	354
+scalar MyWSN2.node[3].appl 	#rightDATAsent 	512
+scalar MyWSN2.node[3].appl 	#wrongDATAsent 	145
+scalar MyWSN2.node[3].appl 	#received 	8867
+scalar MyWSN2.node[3].nic.mac 	nbTxFrames 	1351
+scalar MyWSN2.node[3].nic.mac 	nbRxFrames 	8432
+scalar MyWSN2.node[3].nic.mac 	nbDroppedFrames 	0
+scalar MyWSN2.node[3].nic.mac 	nbMissedAcks 	0
+scalar MyWSN2.node[3].nic.mac 	nbRecvdAcks 	0
+scalar MyWSN2.node[3].nic.mac 	nbTxAcks 	0
+scalar MyWSN2.node[3].nic.mac 	nbDuplicates 	0
+scalar MyWSN2.node[3].nic.mac 	meanBackoff 	0.41095484826055
+scalar MyWSN2.node[3].nic.mac 	nbBackoffs 	1351
+scalar MyWSN2.node[3].nic.mac 	backoffDurations 	555.2
+scalar MyWSN2.node[4].batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar MyWSN2.node[4].batteryStats 	total 	370202.34531569
+attr unit  mW-s
+scalar MyWSN2.node[4].batteryStats 	lifetime 	-1
+attr unit  s
+scalar MyWSN2.node[4].batteryStats 	"Mean power consumption" 	37.020234531569
+attr unit  mW
+scalar MyWSN2.node[4].appl 	#AvgPower 	136.60600720083
+scalar MyWSN2.node[4].appl 	#AvgRXPower 	136.36519902841
+scalar MyWSN2.node[4].appl 	#AvgTXPower 	0.14160219630996
+scalar MyWSN2.node[4].appl 	#rightMACSsent 	0
+scalar MyWSN2.node[4].appl 	#wrongMACSsent 	0
+scalar MyWSN2.node[4].appl 	#rightVOTEsent 	367
+scalar MyWSN2.node[4].appl 	#wrongVOTEsent 	344
+scalar MyWSN2.node[4].appl 	#rightDATAsent 	531
+scalar MyWSN2.node[4].appl 	#wrongDATAsent 	117
+scalar MyWSN2.node[4].appl 	#received 	8955
+scalar MyWSN2.node[4].nic.mac 	nbTxFrames 	1360
+scalar MyWSN2.node[4].nic.mac 	nbRxFrames 	8431
+scalar MyWSN2.node[4].nic.mac 	nbDroppedFrames 	0
+scalar MyWSN2.node[4].nic.mac 	nbMissedAcks 	0
+scalar MyWSN2.node[4].nic.mac 	nbRecvdAcks 	0
+scalar MyWSN2.node[4].nic.mac 	nbTxAcks 	0
+scalar MyWSN2.node[4].nic.mac 	nbDuplicates 	0
+scalar MyWSN2.node[4].nic.mac 	meanBackoff 	0.42079411764706
+scalar MyWSN2.node[4].nic.mac 	nbBackoffs 	1360
+scalar MyWSN2.node[4].nic.mac 	backoffDurations 	572.28
+scalar MyWSN2.baseStation.batteryStats 	nominal 	1187988120
+attr unit  mW-s
+scalar MyWSN2.baseStation.batteryStats 	total 	541242.58682323
+attr unit  mW-s
+scalar MyWSN2.baseStation.batteryStats 	lifetime 	-1
+attr unit  s
+scalar MyWSN2.baseStation.batteryStats 	"Mean power consumption" 	54.124258682323
+attr unit  mW
+scalar MyWSN2.baseStation.appl 	#AvgPower 	199.70054132121
+scalar MyWSN2.baseStation.appl 	#AvgRXPower 	199.25528998778
+scalar MyWSN2.baseStation.appl 	#AvgTXPower 	0.44132971571956
+scalar MyWSN2.baseStation.appl 	#AvgTime 	3.6873563069743
+scalar MyWSN2.baseStation.appl 	#MACrequests 	0
+scalar MyWSN2.baseStation.appl 	#VOTErequests 	2711
+scalar MyWSN2.baseStation.appl 	#DATArequests 	497
+scalar MyWSN2.baseStation.appl 	#wrongVotedIn 	72
+scalar MyWSN2.baseStation.appl 	#rightVotedIn 	589
+scalar MyWSN2.baseStation.appl 	#rightDATAreceived 	2508
+scalar MyWSN2.baseStation.appl 	#received 	6685
+scalar MyWSN2.baseStation.nic.mac 	nbTxFrames 	5920
+scalar MyWSN2.baseStation.nic.mac 	nbRxFrames 	6685
+scalar MyWSN2.baseStation.nic.mac 	nbDroppedFrames 	0
+scalar MyWSN2.baseStation.nic.mac 	nbMissedAcks 	0
+scalar MyWSN2.baseStation.nic.mac 	nbRecvdAcks 	0
+scalar MyWSN2.baseStation.nic.mac 	nbTxAcks 	0
+scalar MyWSN2.baseStation.nic.mac 	nbDuplicates 	0
+scalar MyWSN2.baseStation.nic.mac 	meanBackoff 	0.42039864864864
+scalar MyWSN2.baseStation.nic.mac 	nbBackoffs 	5920
+scalar MyWSN2.baseStation.nic.mac 	backoffDurations 	2488.76
